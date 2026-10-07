@@ -100,6 +100,16 @@
     "packageType": "bundled"
   },
   {
+    "id": "anti-ia-copy-policy",
+    "name": "Anti-IA Copy — Política de uso",
+    "type": "section",
+    "compositionRole": "both",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/anti-ia-copy/plugin.json",
+    "packageType": "bundled"
+  },
+  {
     "id": "footer",
     "name": "Rodapé profissional",
     "type": "section",
@@ -108,6 +118,16 @@
     "version": "1.1.1",
     "source": "plugins/footer/plugin.json",
     "packageType": "core"
+  },
+  {
+    "id": "tag-installer-pro",
+    "name": "Tag Installer Pro",
+    "type": "section",
+    "compositionRole": "both",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/tag-installer-pro/plugin.json",
+    "packageType": "bundled"
   },
   {
     "id": "reveal",
@@ -128,5 +148,15 @@
     "version": "1.0.0",
     "source": "plugins/lightbox/plugin.json",
     "packageType": "core"
+  },
+  {
+    "id": "content-protection",
+    "name": "Proteção de conteúdo",
+    "type": "behavior",
+    "compositionRole": "behavior",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/content-protection/plugin.json",
+    "packageType": "bundled"
   }
 ]

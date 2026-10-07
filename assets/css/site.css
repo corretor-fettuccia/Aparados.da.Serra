@@ -1553,6 +1553,33 @@ html.formsender-quick-open, html.formsender-quick-open body { overflow: hidden; 
 }
 
 
+/* O plugin não ocupa espaço na landing page publicada. */
+[data-plugin="anti-ia-copy-policy"] {
+  display: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+}
+
+/* Nó técnico injetado diretamente no body. */
+.aicp-machine-policy {
+  position: absolute !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important;
+  pointer-events: none !important;
+  user-select: none !important;
+}
+
+
 .site-footer{padding:4rem 0 2rem;background:#080b0f;color:#fff}
 .site-footer .site-container{display:grid;grid-template-columns:1fr auto;gap:2rem}
 .footer-brand{display:flex;flex-direction:column}
@@ -1603,6 +1630,26 @@ body[data-motion="minimal"].reveal-ready .section-shell:not([data-plugin="parall
 
 
 .imobify-lightbox{position:fixed;inset:0;z-index:100;display:none;place-items:center;padding:3vw;background:rgba(3,5,7,.92);backdrop-filter:blur(8px)}.imobify-lightbox.is-open{display:grid}.imobify-lightbox img{max-width:94vw;max-height:88vh;border-radius:calc(var(--radius)*.5);box-shadow:0 30px 90px rgba(0,0,0,.55)}.imobify-lightbox button{position:absolute;right:20px;top:20px;border:1px solid rgba(255,255,255,.35);background:rgba(0,0,0,.35);color:#fff;width:42px;height:42px;border-radius:50%;cursor:pointer;font-size:1.2rem}
+
+
+html.imobify-content-protection,
+html.imobify-content-protection body,
+html.imobify-content-protection body * {
+  -webkit-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+
+html.imobify-content-protection input,
+html.imobify-content-protection textarea,
+html.imobify-content-protection select,
+html.imobify-content-protection [contenteditable="true"] {
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+  user-select: text !important;
+}
 
 
 /* Imobify Design System 5.0.0 — compatibility layer loaded after plugin CSS */
