@@ -452,13 +452,13 @@
 (function(){})();
 
 
-(function(){})();
-
-
 (function(){
   "use strict";
   // 1.2.1: composição balanceada é resolvida por CSS; não há ajuste iterativo de tracking.
 })();
+
+
+(function(){})();
 
 
 (function(){function init(root){if(root.dataset.oppReady)return;root.dataset.oppReady='1';var out=root.querySelector('[data-countdown-value]');if(!out)return;var end=new Date(root.querySelector('.opp-wrap').dataset.countdownEnd||'').getTime();if(!Number.isFinite(end)){out.textContent='Consulte a validade da condição';return}function tick(){var d=end-Date.now();if(d<=0){out.textContent='Consulte a condição atual';return}var days=Math.floor(d/86400000);var hours=Math.floor(d%86400000/3600000);var mins=Math.floor(d%3600000/60000);var secs=Math.floor(d%60000/1000);out.textContent=days+'d '+String(hours).padStart(2,'0')+'h '+String(mins).padStart(2,'0')+'m '+String(secs).padStart(2,'0')+'s'}tick();setInterval(tick,1000)}document.querySelectorAll('[data-plugin="offer-price-pro"]').forEach(init)})();

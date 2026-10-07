@@ -1,7 +1,7 @@
 LANDING PAGE COMPILADA — IMOBIFY STUDIO 5.12.5
 
 Projeto: Aparados Bairro Planejado
-Gerado em: 07/10/2026, 13:32:42
+Gerado em: 07/10/2026, 14:10:26
 
 PUBLICAÇÃO
 Envie todo o conteúdo desta pasta para a raiz do seu serviço de hospedagem, GitHub Pages, Netlify, Vercel ou servidor web. A página é estática e não exige banco de dados.

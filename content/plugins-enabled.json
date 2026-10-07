@@ -40,16 +40,6 @@
     "packageType": "core"
   },
   {
-    "id": "specs",
-    "name": "Ficha do imóvel",
-    "type": "section",
-    "compositionRole": "section",
-    "compositionCardinality": "multiple",
-    "version": "1.0.0",
-    "source": "plugins/specs/plugin.json",
-    "packageType": "core"
-  },
-  {
     "id": "lifestyle",
     "name": "Lifestyle",
     "type": "section",
@@ -57,6 +47,16 @@
     "compositionCardinality": "multiple",
     "version": "1.0.0",
     "source": "plugins/lifestyle/plugin.json",
+    "packageType": "core"
+  },
+  {
+    "id": "specs",
+    "name": "Ficha do imóvel",
+    "type": "section",
+    "compositionRole": "section",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/specs/plugin.json",
     "packageType": "core"
   },
   {
