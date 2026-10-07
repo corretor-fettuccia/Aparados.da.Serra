@@ -1,0 +1,132 @@
+[
+  {
+    "id": "hero",
+    "name": "Hero imobiliário",
+    "type": "section",
+    "compositionRole": "section",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/hero/plugin.json",
+    "packageType": "core"
+  },
+  {
+    "id": "property-slider",
+    "name": "Slider imobiliário",
+    "type": "section",
+    "compositionRole": "both",
+    "compositionCardinality": "multiple",
+    "version": "1.4.0",
+    "source": "plugins/property-slider/plugin.json",
+    "packageType": "bundled"
+  },
+  {
+    "id": "payment-investment-glass-pro",
+    "name": "Tabela Investimento + Glass CTA",
+    "type": "section",
+    "compositionRole": "both",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/payment-investment-glass-pro-v1.0.0/plugin.json",
+    "packageType": "bundled"
+  },
+  {
+    "id": "highlights",
+    "name": "Destaques",
+    "type": "section",
+    "compositionRole": "section",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/highlights/plugin.json",
+    "packageType": "core"
+  },
+  {
+    "id": "specs",
+    "name": "Ficha do imóvel",
+    "type": "section",
+    "compositionRole": "section",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/specs/plugin.json",
+    "packageType": "core"
+  },
+  {
+    "id": "lifestyle",
+    "name": "Lifestyle",
+    "type": "section",
+    "compositionRole": "section",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/lifestyle/plugin.json",
+    "packageType": "core"
+  },
+  {
+    "id": "offer-price-pro",
+    "name": "Offer Price Pro",
+    "type": "section",
+    "compositionRole": "item",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/offer-price-pro/plugin.json",
+    "packageType": "bundled"
+  },
+  {
+    "id": "location",
+    "name": "Localização",
+    "type": "section",
+    "compositionRole": "both",
+    "compositionCardinality": "multiple",
+    "version": "1.1.0",
+    "source": "plugins/location/plugin.json",
+    "packageType": "bundled"
+  },
+  {
+    "id": "faq",
+    "name": "Perguntas frequentes",
+    "type": "section",
+    "compositionRole": "section",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/faq/plugin.json",
+    "packageType": "core"
+  },
+  {
+    "id": "form-sender-v4",
+    "name": "Form Sender v4",
+    "type": "section",
+    "compositionRole": "both",
+    "compositionCardinality": "multiple",
+    "version": "4.4.6",
+    "source": "plugins/form-sender-v4/plugin.json",
+    "packageType": "bundled"
+  },
+  {
+    "id": "footer",
+    "name": "Rodapé profissional",
+    "type": "section",
+    "compositionRole": "section",
+    "compositionCardinality": "multiple",
+    "version": "1.1.1",
+    "source": "plugins/footer/plugin.json",
+    "packageType": "core"
+  },
+  {
+    "id": "reveal",
+    "name": "Revelação no scroll",
+    "type": "behavior",
+    "compositionRole": "behavior",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/reveal/plugin.json",
+    "packageType": "core"
+  },
+  {
+    "id": "lightbox",
+    "name": "Lightbox de galeria",
+    "type": "behavior",
+    "compositionRole": "behavior",
+    "compositionCardinality": "multiple",
+    "version": "1.0.0",
+    "source": "plugins/lightbox/plugin.json",
+    "packageType": "core"
+  }
+]
